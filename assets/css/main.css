@@ -2075,7 +2075,7 @@ body.is-preload #wrapper {
 
 #main > .panel.intro {
   padding: 0;
-  height: 40em;
+  min-height: 40em;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
