@@ -1411,7 +1411,8 @@ body.is-preload *:after {
 body,
 input,
 textarea,
-select {
+select,
+a {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   color: #777777;
@@ -1875,6 +1876,31 @@ ul.actions li:first-child {
 }
 
 /* Nav */
+
+#topButton {
+  text-decoration: none;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+#topButton:hover {
+  text-decoration: underline;
+}
+
+#editionLinks {
+  text-align: center;
+}
+
+#editionLinks a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+#editionLinks a:hover {
+  text-decoration: underline;
+}
 
 #nav {
   text-align: center;
