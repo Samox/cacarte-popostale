@@ -1883,9 +1883,14 @@ ul.actions li:first-child {
   position: fixed;
   bottom: 20px;
   right: 20px;
+  background-color: gray;
+  opacity: 0.5;
+  padding: 0px 15px;
+  border-radius: 4px;
 }
 
 #topButton:hover {
+  opacity: 1;
   text-decoration: underline;
 }
 
